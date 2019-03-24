@@ -1,0 +1,26 @@
+[viewdb]
+viewdb1 ansible_ssh_host=10.109.19.201 ansible_ssh_pass=cie.inhe
+viewdb2 ansible_ssh_host=10.109.19.202 ansible_ssh_pass=cie.inhe
+[slsdb]
+slsdb1 ansible_ssh_host=10.109.19.197 ansible_ssh_pass=cie.inhe
+slsdb2 ansible_ssh_host=10.109.19.198 ansible_ssh_pass=cie.inhe
+[lb]
+lb1 ansible_ssh_host=10.109.19.191 ansible_ssh_pass=cie.inhe
+lb2 ansible_ssh_host=10.109.19.192 ansible_ssh_pass=cie.inhe
+[web]
+web1 ansible_ssh_host=10.109.19.193 ansible_ssh_pass=cie.inhe
+web2 ansible_ssh_host=10.109.19.194 ansible_ssh_pass=cie.inhe
+web3 ansible_ssh_host=10.109.19.195 ansible_ssh_pass=cie.inhe
+[samba]
+fs1 ansible_ssh_host=10.109.19.196 ansible_ssh_pass=cie.inhe
+[viewapp]
+viewapp1 ansible_ssh_host=10.109.3.133 ansible_ssh_user="UNIVERS\SMARTHD_PROD" ansible_ssh_pass="Password2018" ansible_ssh_port=5985 ansible_connection="winrm" ansible_winrm_server_cert_validation=ignore ansible_winrm_transport=ntlm
+viewapp2 ansible_ssh_host=10.109.3.134 ansible_ssh_user="UNIVERS\SMARTHD_PROD" ansible_ssh_pass="Password2018" ansible_ssh_port=5985 ansible_connection="winrm" ansible_winrm_server_cert_validation=ignore ansible_winrm_transport=ntlm 
+
+[slsapp]
+slsapp1 ansible_ssh_host=10.109.10.29 ansible_ssh_user="UNIVERS\SMARTHD_PROD" ansible_ssh_pass="Password2018" ansible_ssh_port=5985 ansible_connection="winrm" ansible_winrm_server_cert_validation=ignore ansible_winrm_transport=ntlm
+slsapp2 ansible_ssh_host=10.109.10.116 ansible_ssh_user="UNIVERS\SMARTHD_PROD" ansible_ssh_pass="Password2018" ansible_ssh_port=5985 ansible_connection="winrm" ansible_winrm_server_cert_validation=ignore ansible_winrm_transport=ntlm
+
+[viewapptest]
+viewapptest1 ansible_ssh_host=10.109.19.103 ansible_ssh_user="UNIVERS\SMARTHD" ansible_ssh_pass="Password2018" ansible_ssh_port=5985 ansible_connection="winrm" ansible_winrm_server_cert_validation=ignore ansible_winrm_transport=ntlm
+viewapptest2 ansible_ssh_host=10.109.19.104 ansible_ssh_user="UNIVERS\SMARTHD" ansible_ssh_pass="Password2018" ansible_ssh_port=5985 ansible_connection="winrm" ansible_winrm_server_cert_validation=ignore ansible_winrm_transport=ntlm
